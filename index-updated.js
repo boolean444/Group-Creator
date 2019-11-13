@@ -1,9 +1,3 @@
-<html>
-<head>
-<title>Niles West Group Creator</title>
-
-<script>
-
 //In this project, you will be finishing one method: createGroups().  To finish this method, you will need to be able to do the following:
 //- know which students need to be grouped (done for you, stored in the students array shown below)
 //- know the preferences of students (done for you, stored in the map below)
@@ -1021,30 +1015,4 @@ function groupSizes(target) {
 function reportError(error) {
     alert(error);
 }
-</script>
 
-</head>
-
-<body>
-
-<center><h1>Niles West Group Creator</h1></center>
-
-Select Teacher: <select id="teachers" onchange="chooseTeacher()"></select><br>
-Select Course: <select id="classes" onchange="chooseClass()"></select><br>
-Total Student Count: <span id="studentCount"></span><br><br>
-
-<u>Student Preferences</u><br>
-<div id="preferences">
-</div><br><br>
-
-Desired Group Sizes (Separated by commas): <input type="text" id="sizes"></input><br>
-Students To Group:<br> <select multiple id="studentsToGroup"></select><br>
-<button onclick="createGroups()">Create Groups (takes at most about 30 seconds)</button><br><br>
-
-<u>Groups</u><br>
-<div id="groups">
-</div>
-
-</body>
-
-</html>
